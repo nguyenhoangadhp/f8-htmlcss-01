@@ -111,7 +111,7 @@ a {
 }
 
 .hero .sub-title {
-    color: #687691;
+    color: #687690;
     font-family: Poppins;
     font-size: 1.8rem;
     font-weight: 500;
@@ -174,6 +174,18 @@ a {
     align-items: center;
     justify-content: space-between;
     margin-top: 70px;
+}
+
+.clients .images a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+}
+
+.clients .images a:hover {
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* =========Guides========== */
