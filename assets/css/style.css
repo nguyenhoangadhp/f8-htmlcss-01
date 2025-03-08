@@ -123,7 +123,7 @@ a {
 
 .hero-wrap .sub-title {
     color: #687690;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.5;
@@ -284,7 +284,6 @@ a {
     padding: 110px 0;
     margin-top: 120px;
     background: #f5fafe;
-    padding: 110px;
 }
 
 .futured .sub-title {
@@ -321,8 +320,8 @@ a {
 
 .futured .list {
     margin-top: 70px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
